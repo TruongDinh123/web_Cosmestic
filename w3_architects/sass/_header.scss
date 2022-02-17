@@ -1,0 +1,21 @@
+.header{
+    &-img{
+        width: 100%;
+        height: auto;
+    }
+    &-title{
+        position: absolute;
+        letter-spacing: 4px;
+        font-size: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+        font-weight: 400px;
+    }
+    &-BR{
+        background-color: #000;
+        padding: 8px 16px;
+        opacity: 0.75;
+    }
+}

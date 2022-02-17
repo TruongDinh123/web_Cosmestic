@@ -1,0 +1,54 @@
+.header{
+
+    display: flex; /* cho chu nam ngang */
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+
+    &-logo{
+        display: flex;       
+        margin-left: 150px;
+    }
+    &-logo-imgae{
+        width: 35px;
+        height: 43px;
+    }
+    &-logo-text{
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    &-menu{
+        display: flex;
+        list-style: none;
+        margin-right: 180px;
+        color: #4F5665;
+    }
+
+    &-iteam{
+        margin-left: 40px;
+    }
+
+    &-account{
+        display: flex;
+        list-style: none;
+        margin-right: 50px;
+
+    }
+
+    &-login{
+        margin-right: 60px;
+        padding-top: 10px;
+    }
+
+    &-signup{    
+        color: #F53855;
+        padding: 10px 30px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid #F53855;
+    }
+}

@@ -1,0 +1,14 @@
+.plantitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    &-title{
+        margin-left: 153px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    &-text{
+        margin-left: 35px;
+    }
+}

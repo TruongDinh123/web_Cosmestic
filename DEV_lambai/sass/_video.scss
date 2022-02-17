@@ -1,0 +1,27 @@
+.video{
+    display: flex;
+    margin-top: 198px;
+    justify-content: space-between;
+    &-content{
+        max-width: 350px;
+        
+    }
+    &-heading{
+        display: block;
+        font-size: 16px;
+        margin-bottom: 85px;
+    }
+    &-btn{
+        display: block;
+    }
+
+    &-title{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    &-1{
+        width: 600px;
+        height: 300px;
+    }
+}

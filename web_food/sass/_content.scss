@@ -1,0 +1,27 @@
+.content{
+    display: flex;
+    align-items: stretch;
+    padding-top: 100px;
+    margin: 0px 150px;
+
+    &-text-note{
+        display: flex;
+    }
+
+    &-title{
+        font-size: 35px;
+        font-weight: 500px;
+        line-height: 50px;
+    }
+
+    &-text{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    &-note{
+        padding-top: 30px;
+        font-size: 14px;
+        color: #2FAB73;
+        cursor: pointer;
+    }
+}

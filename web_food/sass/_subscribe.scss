@@ -1,0 +1,18 @@
+.subscribe{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background: #faf5f5;
+    border-radius: 10px;
+
+    &-title{
+        margin-right: 340px;
+    }
+
+    &-btn{
+        width: 250px;
+        height: 60px;
+        background: #F53838;
+        border-radius: 10px;
+    }
+}

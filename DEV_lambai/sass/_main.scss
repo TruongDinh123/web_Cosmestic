@@ -1,0 +1,56 @@
+.main{
+    &-content{
+        display: block;
+        text-align: center;
+    }
+    &-title{
+        display: block;
+        font-size: 14px;
+        text-transform: uppercase; 
+        line-height: 28.5px;
+        margin-top: 0;
+        font-weight: bold;
+    }
+    &-heading{
+        margin: 0px;
+        font-size: 52px;
+        line-height: 28.5px;
+    }
+
+    &-social{
+        display: flex;
+        padding-top: 30px;
+
+    }
+
+    &-graphic{
+        width: calc(100/3);
+        height:  300px;
+        display: block;
+        text-align: center;
+        background-color: antiquewhite;
+        justify-content: space-around;
+        margin-right: 15px;
+    }
+
+
+    &-desc{
+        display: block;
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    &-icon{
+        width: 77px;
+        height: 77px;
+    }
+
+
+    &-btn{
+        background-color: #FF6600;
+        padding: 11px 36px;
+        border-radius: 10px;
+        color: #fff;
+        border: solid 1px;
+    }
+}

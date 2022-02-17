@@ -1,0 +1,39 @@
+.client{
+
+    padding-top: 130px;
+    &-content{
+        text-align: center;
+    }
+
+    &-content-text{
+        color: #8A898E;
+        font-weight: 700;
+        margin-bottom: -24px;
+    }
+
+    &-list-profile{
+        margin-top: 20px;
+        justify-content: center;
+        padding: 30px;
+    }
+
+
+    &-name{
+        width: calc(100%/2);
+        float: left;
+        padding: 30px 0px;
+    }
+
+    &-profile-fullname{
+        opacity: 0.3;
+    }
+
+    &-img{
+        float: left;
+        padding-right: 20px;
+    }
+
+    &-profile-text{
+        max-width: 500px;
+    }
+}

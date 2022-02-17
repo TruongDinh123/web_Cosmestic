@@ -1,0 +1,35 @@
+.header{
+    display: flex; /* cho chu nam ngang */
+    justify-content: space-between;
+    margin-top: 58px;
+    align-items: center;
+
+    &-img{
+        width: 240px;
+        height: 50px;
+    }
+
+    &-menu{
+        display: flex; /* cho chu nam ngang */
+    }
+
+    &-iteam{
+        padding-right: 40px;
+    }
+    &-Account{
+        display: flex; /* cho chu nam ngang */
+    }
+    &-Signup{
+        padding: 10px 30px;
+        background-color: #FF6600;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    &-Login{
+        padding: 10px 10px;
+
+    }
+}
+
+

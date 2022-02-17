@@ -1,0 +1,35 @@
+.content{
+    &-title{
+        padding-bottom: 30px;
+    }
+    &-title-text{
+        padding: 0px 8px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 25px;
+        border-bottom: 1px solid #ccc;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+    &-lists{
+        padding: 8px;
+        display: flex;
+    }
+
+    &-list{
+        padding: 0px 8px;
+    }
+
+    &-list-img{
+        position: absolute;
+        padding: 8px 16px;
+        background-color: #000;
+        color: #fff;
+    }
+
+    &-img{  
+        width: 100%;
+    }
+
+}

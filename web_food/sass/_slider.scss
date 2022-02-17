@@ -1,0 +1,43 @@
+.slider{
+    display: flex;
+    padding-top: 100px;
+
+    &-header{
+
+        margin-left: 150px;
+
+    }
+    &-title{
+        font-size: 50px;
+        font-weight: 700;
+        color: #0B132A;
+        margin-bottom: 20px;
+    }
+
+    &-text{
+        font-size: 16px;
+        color:  #4F5665;
+    }
+
+    &-btn{
+        margin-top: 50px;
+    }
+
+    &-getstart{
+        background-color: #F53855;
+        color: #fff;
+        padding: 10px 30px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid #F53855;
+    }
+
+    &-img{
+        transform: translateY(-70px);
+        width: 611.24px;
+        height: 382.44px;
+        left: 745.76px;
+        top: 179.11px;
+    }
+}
